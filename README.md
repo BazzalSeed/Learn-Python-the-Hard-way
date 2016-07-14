@@ -20,6 +20,7 @@ eg. [ex16](ex16.py)
 5. Iterator, Generator and Yield
 
  [Python Wiki for Generators ](https://wiki.python.org/moin/Generators)
+ 
  [Stackoverflow discussion about ](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python)
 
 6.  Usage of read() = > [ex16]()
