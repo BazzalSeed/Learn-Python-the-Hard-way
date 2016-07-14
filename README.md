@@ -16,9 +16,17 @@ with handle the lifecycle of the object automatically, destroys it in the end. C
 
     f.write('Hi there!')
    ```
-
+eg. [ex16](ex16.py)
 5. Iterator, Generator and Yield
 
  [Python Wiki for Generators ](https://wiki.python.org/moin/Generators)
  [Stackoverflow discussion about ](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python)
-6.
+
+6.  Usage of read() = > [ex16]()
+  ```python
+  """main function."""
+  with open("test") as inputfile:
+      indata = inputfile.read()
+  with open("outputtest", 'w') as outputfile:
+      outputfile.write(indata)
+  ```
