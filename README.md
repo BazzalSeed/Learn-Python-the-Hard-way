@@ -20,7 +20,7 @@ eg. [ex16](ex16.py)
 5. Iterator, Generator and Yield
 
  [Python Wiki for Generators ](https://wiki.python.org/moin/Generators)
- 
+
  [Stackoverflow discussion about ](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python)
 
 6.  Usage of read() = > [ex16]()
@@ -31,3 +31,14 @@ eg. [ex16](ex16.py)
   with open("outputtest", 'w') as outputfile:
       outputfile.write(indata)
   ```
+7.  double star and single star for parameters
+
+  ```python
+  def function1(**args)
+  def function2(*args)
+  ```
+  The \*args will give you all function parameters as a tuple
+  The \**kwargs will give you all keyword arguments except for those corresponding to a formal parameter as a dictionary.
+  [test_doublestar.py]()
+
+### Track Mark 23
